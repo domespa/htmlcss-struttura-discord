@@ -56,7 +56,37 @@ nav {
 
 .header-bot > .container {
     background-color: #ee82ee;
-    height: 400px;
+    min-height: 400px;
     max-width: 900px;
+}
 
+/*------------------
+        SECTIONS
+------------------*/
+section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.sect-grey {
+    background-color: #d3d3d3;
+}
+
+.col-big {
+    background-color: #1e90ff;
+    min-height: 500px;
+    width: 730px;
+}
+
+.col-small {
+    background-color: #ffc0cb;
+    min-height: 500px;
+    width: 470px;
+}
+
+.big-green {
+    background-color: #228b22;
+    width: 1200px;
+    min-height: 900px;
 }
