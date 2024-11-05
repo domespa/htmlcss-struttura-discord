@@ -71,6 +71,7 @@ section {
 
 .sect-grey {
     background-color: #d3d3d3;
+
 }
 
 .col-big {
@@ -87,6 +88,60 @@ section {
 
 .big-green {
     background-color: #228b22;
-    width: 1200px;
+    min-width: 1200px;
     min-height: 900px;
+}
+
+/*------------------
+        FOOTER
+------------------*/
+
+.footer-top {
+    background-color: #23272a;
+}
+
+.footer-top > .container {
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 1200px;
+}
+
+.col-vert-big {
+    background-color: #f08080;
+    width: 30%;
+    height: 570px;
+    border: dashed black 1px;
+}
+
+.col-vert-small {
+    background-color: #20b2aa;
+    width: 20%;
+    height: 570px;
+    border: dashed white 1px;
+}
+
+.footer-bot {
+    background-color: #23272a;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-or {
+    background-color: #7fffd4;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    font-size: 18px;
+    padding: 4px;
+    border: dashed black 1px;
 }
