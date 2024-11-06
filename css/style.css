@@ -12,9 +12,10 @@
         GENERAL
 ------------------*/  
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 /*------------------
@@ -77,13 +78,13 @@ section {
 .col-big {
     background-color: #1e90ff;
     min-height: 500px;
-    width: 730px;
+    width: 65%;
 }
 
 .col-small {
     background-color: #ffc0cb;
     min-height: 500px;
-    width: 470px;
+    width: 35%;
 }
 
 .big-green {
